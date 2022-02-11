@@ -1,4 +1,4 @@
-package com.kh.practice1.example;
+package Variable.com.kh.practice1.example;
 
 import java.util.Scanner;
 

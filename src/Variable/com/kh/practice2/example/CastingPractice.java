@@ -1,4 +1,4 @@
-package com.kh.practice2.example;
+package Variable.com.kh.practice2.example;
 
 import java.util.Scanner;
 
@@ -109,4 +109,5 @@ public class CastingPractice {
 		
 		//System.out.printf("평균 : " + "%.3f", avg);
 	}
+	
 }

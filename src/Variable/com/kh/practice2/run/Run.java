@@ -1,6 +1,6 @@
-package com.kh.practice2.run;
+package Variable.com.kh.practice2.run;
 
-import com.kh.practice2.example.CastingPractice;
+import Variable.com.kh.practice2.example.CastingPractice;
 
 public class Run {
 
@@ -8,6 +8,7 @@ public class Run {
 		CastingPractice cp = new CastingPractice();
 		//cp.method3();
 		cp.selfTest();
+
 	}
 
 }

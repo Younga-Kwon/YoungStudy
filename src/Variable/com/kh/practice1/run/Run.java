@@ -1,6 +1,6 @@
-package com.kh.practice1.run;
+package Variable.com.kh.practice1.run;
 
-import com.kh.practice1.example.VariablePractice;
+import Variable.com.kh.practice1.example.VariablePractice;
 
 public class Run {
 
