@@ -8,7 +8,9 @@ public class run {
 		//i.method2();
 		//i.method3();
 		//i.method4();
-		i.method5();
+		//i.method5();
+		//i.method6();
+		i.method7();
 
 	}
 

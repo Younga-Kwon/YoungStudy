@@ -102,13 +102,51 @@ public class If {
 	public void method6() {
 		Scanner sc = new Scanner(System.in);
 		
-		int h = sc.nextInt();
-		int m = sc.nextInt();
-		int c = sc.nextInt();
+		int h = sc.nextInt(); //시
+		int m = sc.nextInt(); //분
+		int c = sc.nextInt(); //필요 시간
 		
-		if(c+m >= 60 && c+m < 120) {
+		m += c; //분과 걸리는 시간 c를 더해준다. -> 60분이 넘으면 시간에 더해준다.
+		while(m >= 60) { 
+			h++;
+			m -= 60;
 			
+			if(h >= 24) { //h가 24보다 커지면 h는 0이 된다.
+				h = 0;
+			}
 		}
+		
+		System.out.println(h + " " + m);
+	}
+	
+	//2480번 주사위 세개
+	public void method7() {
+		int num1 = (int)(Math.random() * 6 + 1);
+		int num2 = (int)(Math.random() * 6 + 1);
+		int num3 = (int)(Math.random() * 6 + 1);
+		int money = 0;
+		
+		System.out.println(num1 + " " + num2 + " " + num3);
+		
+		if(num1 == num2 && num2 == num3 && num1 == num3) {
+			money = 10000 + num1 * 1000;
+		}else if(num1 == num2 || num1 == num3) {
+			money = 1000 + num1 * 100;
+		}else if(num2 == num3) {
+			money = 1000 + num2 * 100;
+		}else {
+			/*int max = num1;
+			if(num2 > max) {
+				max = num2;
+			}
+			if(num3 > max) {
+				max = num3;
+			}
+			money = max * 100;*/
+			money = Math.max(Math.max(num1, num2), num3) * 100;
+		}
+		
+		System.out.println(money);	
 		
 	}
 
