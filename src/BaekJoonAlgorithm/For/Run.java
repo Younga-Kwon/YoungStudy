@@ -10,7 +10,11 @@ public class Run {
 		//f.method2();
 		//f.method3();
 		//f.method4();
-		f.method5();
+		//f.method5();
+		//f.method6();
+		//f.method7();
+		//f.method8();
+		f.method9();
 	}
 
 }
