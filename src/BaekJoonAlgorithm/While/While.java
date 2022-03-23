@@ -35,14 +35,4 @@ public class While {
 		sc.close();
 	}
 	
-	//1110번 더하기 사이클
-	public void method3() {
-		Scanner sc = new Scanner(System.in);
-		
-		while(true) {
-			int n = sc.nextInt();
-			
-			
-		}
-	}
 }
